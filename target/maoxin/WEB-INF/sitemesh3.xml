@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+	<!-- split mapping url to escape welcome-file-list -->
+	<mapping path="/login*" decorator="/view/layout.jsp" />
+	<mapping path="/home*" decorator="/view/layout.jsp" />
+	<mapping path="/error*" decorator="/view/layout.jsp" />
+	<mapping path="/manage*" decorator="/view/layout.jsp" />
+	<mapping path="/company*" decorator="/view/layout.jsp" />
+	<mapping path="/staff*" decorator="/view/layout.jsp" />
+	<mapping path="/deduct*" decorator="/view/layout.jsp" />
+	<mapping path="/report*" decorator="/view/layout.jsp" />
+
+</sitemesh>

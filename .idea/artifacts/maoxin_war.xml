@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="maoxin:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="maoxin.war">
+      <element id="artifact" artifact-name="maoxin:war exploded" />
+    </root>
+  </artifact>
+</component>

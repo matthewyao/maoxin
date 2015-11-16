@@ -1,0 +1,95 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+    <context:component-scan base-package="com.maoxin"/>
+    <mvc:annotation-driven />
+
+    <!-- persistence configuration start -->
+    <bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location">
+            <value>/WEB-INF/config/init.properties</value>
+        </property>
+    </bean>
+
+    <!-- spring mvc整合json，处理JSON数据转换的 -->
+    <bean id="mappingJacksonHttpMessageConverter"
+          class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <!-- 为了处理返回的JSON数据的编码，默认是ISO-88859-1的，这里把它设置为UTF-8,解决有乱码的情况 -->
+        <property name="supportedMediaTypes">
+            <list>
+                <value>text/html;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/view/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <bean id="dataSourceDefault" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName">
+            <value>${datasource.driverClassName}</value>
+        </property>
+        <property name="url">
+            <value>${datasource.url}</value>
+        </property>
+        <property name="username">
+            <value>${datasource.username}</value>
+        </property>
+        <property name="password">
+            <value>${datasource.password}</value>
+        </property>
+        <property name="maxActive">
+            <value>${datasource.maxActive}</value>
+        </property>
+        <property name="maxIdle">
+            <value>${datasource.maxIdle}</value>
+        </property>
+        <property name="maxWait">
+            <value>${datasource.maxWait}</value>
+        </property>
+        <property name="defaultAutoCommit">
+            <value>${datasource.defaultAutoCommit}</value>
+        </property>
+        <property name="testWhileIdle">
+            <value>${datasource.testWhileIdle}</value>
+        </property>
+        <property name="timeBetweenEvictionRunsMillis">
+            <value>${datasource.timeBetweenEvictionRunsMillis}</value>
+        </property>
+        <property name="minEvictableIdleTimeMillis">
+            <value>${datasource.minEvictableIdleTimeMillis}</value>
+        </property>
+        <property name="testOnBorrow">
+            <value>${datasource.testOnBorrow}</value>
+        </property>
+        <property name="validationQuery">
+            <value>${datasource.validationQuery}</value>
+        </property>
+    </bean>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/manage/*"/>
+            <mvc:mapping path="/login*"/>
+            <mvc:mapping path="/home*"/>
+            <mvc:mapping path="/error*"/>
+            <mvc:mapping path="/company/*"/>
+            <mvc:mapping path="/staff/*"/>
+            <mvc:mapping path="/deduct/*"/>
+            <mvc:mapping path="/report/*"/>
+            <bean class="com.maoxin.util.PageNavManagerInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+</beans>

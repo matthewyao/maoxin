@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="0.111" errors="0" skipped="0" tests="1" name="com.maoxin.controller.AppTests">
+  <properties>
+    <property name="idea.version" value="14.1.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\bin"/>
+    <property name="java.vm.version" value="24.71-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Java Workspace\LearningWorkspace\maoxin"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7533"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Java Workspace\LearningWorkspace\maoxin"/>
+    <property name="java.runtime.version" value="1.7.0_71-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MATTHE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.3.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_71\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files\Java\jdk1.7.0_71\bin;C:\Program Files\Java\jdk1.7.0_71\jre\bin;D:\Program Files\TortoiseSVN\bin;C:\WINDOWS/system32;C:\WINDOWS;D:\program files (x86)\Git\bin;;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\apache-maven-3.3.3\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\matthewyao"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="idea.launcher.bin.path" value="D:\program files (x86)\JetBrains\IntelliJ IDEA 14.1.4\bin"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="matthewyao"/>
+    <property name="java.class.path" value="D:\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar;D:\program files (x86)\JetBrains\IntelliJ IDEA 14.1.4\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_71\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.1.4 package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_71"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_71\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_71\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_71\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.3.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.111" classname="com.maoxin.controller.AppTests" name="simple">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Status expected:&lt;200&gt; but was:&lt;404&gt;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:60)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:89)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers$10.match(StatusResultMatchers.java:652)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:153)
+	at com.maoxin.controller.AppTests.simple(AppTests.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:72)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:81)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:216)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:82)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:60)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:67)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:162)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-err>十月 23, 2015 8:38:30 下午 org.springframework.test.context.web.WebTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+信息: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+十月 23, 2015 8:38:30 下午 org.springframework.test.context.web.WebTestContextBootstrapper getTestExecutionListeners
+信息: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d9f6ce5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1da65633, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13653d7a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5ba71e88, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@38c5a1ba]
+十月 23, 2015 8:38:31 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml]
+十月 23, 2015 8:38:31 下午 org.springframework.web.context.support.GenericWebApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@eabce30: startup date [Fri Oct 23 20:38:31 CST 2015]; root of context hierarchy
+十月 23, 2015 8:38:31 下午 org.springframework.beans.factory.config.PropertyPlaceholderConfigurer loadProperties
+信息: Loading properties file from ServletContext resource [/WEB-INF/config/init.properties]
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/company/add],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.CompanyController.addCompany(com.maoxin.model.Company)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/company/all],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.CompanyController.queryAll(javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/company/modify],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.CompanyController.modifyCompany(com.maoxin.model.Company)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/company/add/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.CompanyController.modifyCompany(int)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/company/add],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.CompanyController.toAdd()
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/deduct/delete/{id}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.DeductController.deleteManager(int,javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/deduct/add/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.DeductController.modifyDeduct(int)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/deduct/modify],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.DeductController.modifyDeduct(com.maoxin.model.Deduct,javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/deduct/search],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.DeductController.searchStaff(javax.servlet.http.HttpServletRequest)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/deduct/all],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.DeductController.allDeduct()
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/deduct/add],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.DeductController.addStaff(com.maoxin.model.Deduct,javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/deduct/add],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.DeductController.toAdd()
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/hello],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.HelloController.printWelcome(org.springframework.ui.ModelMap)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[//error],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.LoginController.error()
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[//login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.LoginController.login(com.maoxin.model.Manager,javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[//logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.LoginController.logout(javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[//home],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.LoginController.home(javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/manage/delete/{id}],methods=[DELETE],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.ManagerController.deleteManager(int,javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/manage/all],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.ManagerController.queryAll(javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/manage/add],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.ManagerController.toAdd(javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/manage/add],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.ManagerController.addManager(com.maoxin.model.Manager,javax.servlet.http.HttpSession)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/report/search],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.ReportController.queryReport(javax.servlet.http.HttpServletRequest)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/report/all],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.ReportController.allReport()
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/staff/search],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.StaffController.searchStaff(javax.servlet.http.HttpServletRequest)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/staff/add],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.StaffController.addStaff(com.maoxin.model.Staff)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/staff/add],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.StaffController.toAdd()
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/staff/all],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.StaffController.allStaff()
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/staff/add/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView com.maoxin.controller.StaffController.modifyStaff(int)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/staff/status/{id}/{status}],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.StaffController.changeStatus(int,int)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping registerHandlerMethod
+信息: Mapped &quot;{[/staff/modify],methods=[PUT],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public com.maoxin.model.ResultResponse&lt;java.lang.Object&gt; com.maoxin.controller.StaffController.changeStatus(com.maoxin.model.Staff)
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+信息: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@eabce30: startup date [Fri Oct 23 20:38:31 CST 2015]; root of context hierarchy
+十月 23, 2015 8:38:32 下午 org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+信息: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@eabce30: startup date [Fri Oct 23 20:38:31 CST 2015]; root of context hierarchy
+十月 23, 2015 8:38:32 下午 org.springframework.mock.web.MockServletContext log
+信息: Initializing Spring FrameworkServlet &apos;&apos;
+十月 23, 2015 8:38:32 下午 org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+信息: FrameworkServlet &apos;&apos;: initialization started
+十月 23, 2015 8:38:32 下午 org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+信息: FrameworkServlet &apos;&apos;: initialization completed in 10 ms
+十月 23, 2015 8:38:33 下午 org.springframework.web.servlet.PageNotFound noHandlerFound
+警告: No mapping found for HTTP request with URI [/] in DispatcherServlet with name &apos;&apos;
+</system-err>
+  </testcase>
+</testsuite>
